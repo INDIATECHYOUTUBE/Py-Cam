@@ -1,6 +1,6 @@
 # Py-Cam
 Hack Front Cam of Any OS Device with Py-Cam || Just Sending A Link ||
-## [Author](https://github.com/INDIATECHYOUTUBE)
+## <a href="https://github.com/INDIATECHYOUTUBE"></a>
 ## Youtube - https://youtube.com/channel/UCxwRU278xsYp3Y-QHGoMTPw
 ***
 [See more about MediaDEvices.getUserMedia() here](https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia)
