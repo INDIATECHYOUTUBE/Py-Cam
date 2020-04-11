@@ -19,7 +19,8 @@ Hack Front Cam of Any OS Device with Py-Cam || Just Sending A Link ||
 
 ## Usage -
 ```
-git clone https://github.com/INDIATECHYOUTUBE/py-cam.git
+git clone https://github.com/INDIATECHYOUTUBE/Py-Cam.git
 cd py-cam
 python py-cam.py
 ```
+### Donate Using 
