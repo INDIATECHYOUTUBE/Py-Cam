@@ -4,7 +4,7 @@ Hack Front Cam of Any OS Device with Py-Cam || Just Sending A Link ||
 ## Youtube - https://youtube.com/channel/UCxwRU278xsYp3Y-QHGoMTPw
 
 [See more about MediaDEvices.getUserMedia() here](https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia)
-<p> To convince the target to grant permissions to access the cam, the page uses a javascript code made by https://github.com/wybiral that turns the favicon into a cam stream.</p>
+<p>To grab images of user this tool uses a javascript code made by https://github.com/wybiral that turns the favicon into a cam stream.</p>
 
 ## Features -
  - Ngrok port Forwarding
