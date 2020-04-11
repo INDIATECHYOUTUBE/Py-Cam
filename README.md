@@ -15,8 +15,8 @@ Hack Front Cam of Any OS Device with Py-Cam || Just Sending A Link ||
 - Ngrok Port Forwarder (from https://ngrok.com )
 
 ## Usage -
-'''
+```
 git clone https://github.com/INDIATECHYOUTUBE/py-cam.git
 cd py-cam
 python py-cam.py
-'''
+```
