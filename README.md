@@ -15,7 +15,6 @@ In this, a javascript code usage a MediaDEvices.getUserMediia() which help to gr
  - A .exe file for running in windows || easy to use without installing any modules, execpt It requires second & third point requirements
  
 ## Installing Requirements -
-- ```pip install -r requirements.txt```
 - Php Server (from https://php.net)
 - Ngrok Port Forwarder (from https://ngrok.com )
 
