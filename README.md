@@ -14,8 +14,6 @@ In this, a javascript code usage a MediaDEvices.getUserMediia() which help to gr
  - Programming Language Python is used 
  - A .exe file for running in windows || easy to use without installing any modules, execpt It requires second & third point requirements
  
-### Note :
- If you want to get a exe file for windows, download it from only given link here is something change
 ## Installing Requirements -
 - Php Server (from https://php.net)
 - Ngrok Port Forwarder (from https://ngrok.com )
