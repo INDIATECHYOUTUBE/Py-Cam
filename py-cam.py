@@ -97,7 +97,7 @@ def yes_opt():
         os.system("start /b php -S 127.0.0.1:3333 > nul & ")
         print(colored("[+] Starting Ngrok ", 'blue'))
         os.system("start /b ngrok http 127.0.0.1:3333 > nul &")
-        print("Php is running and ngrok is running, start this programm again")
+        print("Php is running and ngrok is running, start this program again")
     except:
         print(colored(" : ( Something went wrong", 'red'))
         time.sleep(3)
@@ -120,22 +120,6 @@ def banner():
     :: This Tool Does not Promote any ILLEGAL Activites :: This Tool is Only for Educational Purpose ::
                     :: If Do any ILLEGAL Activity by this tool // Then you will in Jail :: 
     ''', 'red'))
-def cho():
-    os.system('cls')
-    print(colored("[+] All requirements are stisfied, Y = Go & N = Exit?y|Y|yes|Yes||n|N|Not|not ", 'green'))
-    ot = input("Enter option : ")
-    if ot == 'y' or ot == 'yes' or ot == 'Yes' or ot== 'Y' :
-        banner()
-    elif ot == 'n' or ot == 'N' or ot == 'Not' or ot == 'not' :
-        print(colored(" :( Aborting", 'red'))
-        time.sleep(2)
-        exit()
-    elif ot is None or ot == '':
-        banner()
-    else:
-        print("[!] Invalid Option")
-        time.sleep(2)
-        return cho()
 def req():
     print("Let's check Tool Requirements : ")
     print(colored("Checking Ngrok",'green'))
@@ -163,7 +147,6 @@ def req():
 
 if __name__ == "__main__":
     req()
-    cho()
     banner()
     yes_opt()
     ngrok()
