@@ -97,7 +97,7 @@ def yes_opt():
         os.system("start /b php -S 127.0.0.1:3333 > nul & ")
         print(colored("[+] Starting Ngrok ", 'blue'))
         os.system("start /b ngrok http 127.0.0.1:3333 > nul &")
-        print("Php is running now, open this software again without closing this running window ")
+        print("Php is running and ngrok is running, start this programm again")
     except:
         print(colored(" : ( Something went wrong", 'red'))
         time.sleep(3)
