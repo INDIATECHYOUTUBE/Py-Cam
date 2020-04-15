@@ -122,7 +122,7 @@ def banner():
     ''', 'red'))
 def cho():
     os.system('cls')
-    print(colored("[+] This Program is Ready to Go, Are you ready?y|Y|yes|Yes||n|N|Not|not ", 'green'))
+    print(colored("[+] All requirements are stisfied, Y = Go & N = Exit?y|Y|yes|Yes||n|N|Not|not ", 'green'))
     ot = input("Enter option : ")
     if ot == 'y' or ot == 'yes' or ot == 'Yes' or ot== 'Y' :
         banner()
