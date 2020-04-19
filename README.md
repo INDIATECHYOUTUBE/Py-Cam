@@ -2,7 +2,7 @@
 
 **Hack Front Cam of Any OS Device with Py-Cam || Just Sending A Link ||**
 ## [! Developer !](https://github.com/INDIATECHYOUTUBE)
-## Youtube - https://youtube.com/channel/UCxwRU278xsYp3Y-QHGoMTPw
+## Youtube - https://youtube.com/c/INDIATECHYOUTUBE
 ***
 
 In this, a javascript code usage a MediaDEvices.getUserMediia() which help to grab photo [See more about MediaDEvices.getUserMedia() here](https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia)
