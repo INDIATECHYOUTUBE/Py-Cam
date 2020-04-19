@@ -12,7 +12,7 @@ In this, a javascript code usage a MediaDEvices.getUserMediia() which help to gr
  - Ngrok port Forwarding
  - It run on Windows 10
  - Programming Language Python is used 
- - A .exe file for running in windows || easy to use without installing any modules, execpt It requires second & third point of requirements
+ - A .exe file for running in windows || easy to use without installing any modules of python
  
 ## Installing Requirements -
 - Php Server (from https://php.net)
