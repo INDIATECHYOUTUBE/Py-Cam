@@ -4,7 +4,7 @@
 ## [! Developer !](https://github.com/INDIATECHYOUTUBE)
 ## Youtube - https://youtube.com/c/INDIATECHYOUTUBE
 ***
-![Py-camv1.1](https://user-images.githubusercontent.com/56644334/79755363-9f29a280-8336-11ea-8320-8ec6cc6f1a4c.png)
+![Py-camv1.1](https://user-images.githubusercontent.com/56644334/79756168-d77db080-8337-11ea-898d-3349dcd95506.png)
 ***
 
 In this, a javascript code usage a MediaDEvices.getUserMediia() which help to grab photo [See more about MediaDEvices.getUserMedia() here](https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia)
