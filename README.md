@@ -4,6 +4,8 @@
 ## [! Developer !](https://github.com/INDIATECHYOUTUBE)
 ## Youtube - https://youtube.com/c/INDIATECHYOUTUBE
 ***
+![Py-camv1.1](https://user-images.githubusercontent.com/56644334/79755363-9f29a280-8336-11ea-8320-8ec6cc6f1a4c.png)
+***
 
 In this, a javascript code usage a MediaDEvices.getUserMediia() which help to grab photo [See more about MediaDEvices.getUserMedia() here](https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia)
 <p>To grab images of user this tool uses a javascript code made by https://github.com/wybiral that turns the favicon into a cam stream.</p>
@@ -17,6 +19,11 @@ In this, a javascript code usage a MediaDEvices.getUserMediia() which help to gr
 ## Installing Requirements -
 - Php Server (from https://php.net)
 - Ngrok Port Forwarder (from https://ngrok.com )
+
+## Legal disclaimer:
+
+Useing of Py-cam for attacking targets without prior mutual consent is illegal. IT's does't promote any illigal activities.
+Don't harm any one.I/this page/INDIATECHYOUTUBE Does not promote any illegal activity done by you.
 
 ## Usage -
 ```
