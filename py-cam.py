@@ -1,6 +1,6 @@
 # Coded by @INDIATECHYOUTUBE
 # Github : https://github.com/INDIATECHYOUTUBE
-# Don't copy the code
+# Don't copy the code withot permission
 # Donate author on paypal if use any part of the code : https://paypal.me/indiatechyoutube
 # Youtube : https://youtube.com/c/INDIATECHYOUTUBE
 import os
