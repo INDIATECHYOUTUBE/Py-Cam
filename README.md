@@ -27,9 +27,9 @@ Don't harm any one.I/this page/INDIATECHYOUTUBE Does not promote any illegal act
 
 ## Usage -
 ```
-git clone https://github.com/INDIATECHYOUTUBE/Py-Cam.git
-cd py-cam
-python py-cam.py
+git clone https://github.com/INDIATECHYOUTUBE/Py-Camera.git
+cd py-camera
+python py-camera.py
 ```
 ***
 ### Donate Using 
