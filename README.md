@@ -1,6 +1,6 @@
-# Py-Cam
+# Py-Camera
 
-**Hack Front Cam of Any OS Device with Py-Cam || Just Sending A Link ||**
+**Hack Front Cam of Any OS Device with Py-Camera || Just Sending A Link ||**
 ## [! Developer !](https://github.com/INDIATECHYOUTUBE)
 ## Youtube - https://youtube.com/c/INDIATECHYOUTUBE
 ***
