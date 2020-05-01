@@ -18,6 +18,8 @@ In this, a javascript code usage a MediaDEvices.getUserMediia() which help to gr
  - A .exe file for running in windows || easy to use without installing any modules of python
  
 ## Installing Requirements -
+- Python Interpter
+- Python Modules (It requires)
 - Php Server (from https://php.net)
 - Ngrok Port Forwarder (from https://ngrok.com )
 
