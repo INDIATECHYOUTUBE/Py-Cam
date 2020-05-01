@@ -25,8 +25,8 @@ In this, a javascript code usage a MediaDEvices.getUserMediia() which help to gr
 
 ## Legal disclaimer:
 
-Useing of Py-cam for attacking targets without prior mutual consent is illegal. IT's does't promote any illigal activities.
-Don't harm any one.I/this page/INDIATECHYOUTUBE Does not promote any illegal activity done by you.
+Using of Py-cam for attacking targets without prior mutual consent is illegal. IT's does't promote any illigal activities.
+Don't harm any using this tool. INDIATECHYOUTUBE Does not promote any illegal activity done by you.
 
 ## Usage -
 ```
