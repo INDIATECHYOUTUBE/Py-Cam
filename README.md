@@ -13,7 +13,7 @@ In this, a javascript code usage a MediaDEvices.getUserMediia() which help to gr
 
 ## Features -
  - Ngrok port Forwarding
- - It can run on Windows 10, Linux, Mac-OS.
+ - It can run on Windows 10.
  - Just require only python modules
  
 ## Installing Requirements -
