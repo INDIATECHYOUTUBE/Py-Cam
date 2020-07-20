@@ -1,9 +1,9 @@
 # Py-Cam
 
 **Hack Front Cam of Any OS Device with Py-Camera || Just Sending A Link ||**
-## [! Developer !](https://github.com/INDIATECHYOUTUBE)
-## Youtube - https://youtube.com/c/INDIATECHYOUTUBE
-## Follow US on Twitter : https://twitter.com/@PROGRAMMERsYou1
+## ! Developer : [INDIATECHYOUTUBE](https://github.com/INDIATECHYOUTUBE)
+***
+## Follow US on Twitter : [@ethicalTutohack](https://twitter.com/ethicalTutohack)
 ***
 ![Py-camv1.1](https://user-images.githubusercontent.com/56644334/79756168-d77db080-8337-11ea-898d-3349dcd95506.png)
 ***
@@ -13,9 +13,8 @@ In this, a javascript code usage a MediaDEvices.getUserMediia() which help to gr
 
 ## Features -
  - Ngrok port Forwarding
- - It run on Windows 10
- - Programming Language Python is used 
- - A .exe file for running in windows || easy to use without installing any modules of python
+ - It can run on Windows 10, Linux, Mac-OS.
+ - Just require only python modules
  
 ## Installing Requirements -
 - Python Interpter
